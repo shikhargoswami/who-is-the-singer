@@ -1,6 +1,11 @@
 # Who Is The Singer
 An interactive Deep Learning based Flask Web App that records audio and predicts who is the singer.
 
+## Walkthrough
+* Install all the requirements
+* In command line, python main.py
+* Copy the URL and paste it on your browser
+
 ![alt_text](https://github.com/Goshikhar23/who-is-the-singer/blob/master/files/home.png)
 
 
