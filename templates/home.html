@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Record a Singer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+</head>
+
+<body style = "background-color: black;">
+    <div id="maintext" style="position: relative; margin:auto; width:700px; height:200px; text-align:center; top:0; bottom: 0; left: 0; right: 0;">
+        <h1 class="text-light mb-2">Who's the Singer</h1>
+        <h4 class="text-light mb-5"> Click the Record button to record and Predict button to Stop and Predict</h4>
+        <button class='control' id="recordButton">Record</button>
+        <button class='control' id="stopButton" disabled>Predict</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='/jquery-3.3.1.js') }}"> </script>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='/recapp.js') }}"></script>
+    
+</body>
