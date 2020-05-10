@@ -23,7 +23,7 @@ Dataset was created by downloading 40 songs as .wav each of 6 different singers,
 * Taylor Swift
 
 ## Model
-After 20 epochs(1hr training on colab TPU runtype) -  Testing accuracy~64%
+After 20 epochs(1hr training) -  Testing accuracy~64%
 * As audio is a spatio-temporal data, it is vey hard to represent this time-dependent on a fixed scale. So, it is obvious that accuracy is relatively less.
 
 ## Requirements
